@@ -1,1 +1,10 @@
-# Java-Spring-Boot
+# Basic-Java-Spring-Boot
+Assignment 1 (18/04/21)
+Create new service (method in UserRepository,controller and service)
+# new service
+- findByCity(String city);
+- findByActive(Integer active);
+- findByAgeAndActive(Integer age, Integer active)
+- findByAgeAndActive(Integer age, Integer active)
+- findByAgeAndCity(Integer age, String city)
+- findByActiveAndCity(Integer active, String city)
