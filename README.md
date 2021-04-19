@@ -1,4 +1,4 @@
-# Basic-Java-Spring-Boot
+# Basic-Java-Spring-Boot-Workshop
 Assignment 1 (18/04/21)
 Create new service (method in UserRepository,controller and service)
 # new service
