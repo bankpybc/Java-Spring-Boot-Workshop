@@ -10,3 +10,4 @@ Create new service (method in UserRepository,controller and service)
 - findByActiveAndCity(Integer active, String city)# Java-Spring-Boot-Workshop
 # Java-Spring-Boot-Workshop
 # Java-Spring-Boot-Workshop
+# Java-Spring-Boot-Workshop
