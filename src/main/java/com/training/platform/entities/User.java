@@ -3,6 +3,7 @@ package com.training.platform.entities;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.Data;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -34,7 +35,6 @@ public class User implements Serializable {
 
     @Transient
     private String confirm_password;
-
     @Column(name = "age")
     private Integer age;
 
@@ -61,9 +61,6 @@ public class User implements Serializable {
 
     @Column(name = "updated_at")
     private Date updatedAt;
-
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "user")
-    private Shop shop;
 }
 
 
