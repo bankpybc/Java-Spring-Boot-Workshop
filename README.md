@@ -11,3 +11,5 @@ Create new service (method in UserRepository,controller and service)
 
 #Edit (24/04/21)
 - update frontend insert data
+#Edit (25/04/21)
+- add login system and sweetalert
