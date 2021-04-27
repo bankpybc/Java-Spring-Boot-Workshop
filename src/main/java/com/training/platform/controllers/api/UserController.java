@@ -1,4 +1,4 @@
-package com.training.platform.controllers;
+package com.training.platform.controllers.api;
 
 import com.training.platform.entities.User;
 import com.training.platform.services.UserService;
@@ -14,7 +14,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping(value = "/findAll")
+    @GetMapping(value = "")
     public List<User> findAll() {
         return userService.findAll();
     }

@@ -36,6 +36,7 @@ public interface UserRepository extends JpaRepository<User, Integer> { // conver
     public List<User> findByAgeAndCity(Integer age, String city);
 
     public List<User> findByActiveAndCity(Integer active, String city);
-
+    // new
+    User findByEmail(String email);
 
 }

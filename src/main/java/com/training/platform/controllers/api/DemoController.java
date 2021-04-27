@@ -1,4 +1,4 @@
-package com.training.platform.controllers;
+package com.training.platform.controllers.api;
 
 import com.training.platform.entities.User;
 import com.training.platform.repositories.UserRepository;
