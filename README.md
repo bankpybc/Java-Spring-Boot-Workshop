@@ -9,3 +9,5 @@ Create new service (method in UserRepository,controller and service)
 - findByAgeAndCity(Integer age, String city)
 - findByActiveAndCity(Integer active, String city)# Java-Spring-Boot-Workshop
 
+#Edit (24/04/21)
+- update frontend insert data
